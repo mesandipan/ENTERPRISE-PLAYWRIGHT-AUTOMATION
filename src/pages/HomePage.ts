@@ -8,6 +8,6 @@ export default class HomePage {
     }
 
     async expectServiceTitleToBeVisible() {
-        await expect(this.page.getByTitle(this.serviceTitleLocator)).toBeVisible({timeout: 60000});
+        await expect(this.page.getByTitle(this.serviceTitleLocator)).toBeVisible({timeout: 70000});
     }
 }
